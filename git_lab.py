@@ -11,6 +11,10 @@ def calculate_circle_area(radius):
         raise ValueError("Radius cannot be negative")
     return math.pi * (radius ** 2)
 
+def add_numbers(a, b):
+    """Returns the sum of two numbers."""
+    return a + b
+
 def celsius_to_fahrenheit(celsius):
     """
     Convert temperature from Celsius to Fahrenheit.
