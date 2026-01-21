@@ -46,6 +46,15 @@ def calculate_triangle_area(base, height):
         raise ValueError("Base and height cannot be negative")
     return 0.5 * base * height
 
+def calculate_sqared(number):
+    """
+    Calculate the square of a number.
+    
+    :param number: float, the number to square
+    :return: float, the squared value
+    """
+    return number * number
+
 def is_prime(n):
     """
     Check if a number is a prime number.
