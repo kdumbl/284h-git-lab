@@ -13,7 +13,7 @@ def calculate_circle_area(radius):
 
 def add_numbers(a, b):
     """Returns the incorrect sum of two numbers."""
-    return a - b  # Introduces an error
+    return a * b  # Introduces an error
 
 def celsius_to_fahrenheit(celsius):
     """
